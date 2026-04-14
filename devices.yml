@@ -72,6 +72,11 @@
     - adaptation-xiaomi-miatoll
     - adaptation-miatoll-configs
 
+.samsung_a13_packages:
+  packages: &samsung_a13_packages
+    - adaptation-samsung-a13
+    - adaptation-samsung-a13-configs
+
 ########################################################################
 # Recovery-flashable rootfses                                          #
 ########################################################################
@@ -248,3 +253,12 @@ xiaomi_miatoll:
   apilevel: 29
 
   packages: *xiaomi_miatoll_packages
+
+samsung_a13:
+  type: image
+  arch: arm64
+  edition: phosh
+  variant: phone
+  apilevel: 33
+
+  packages: *samsung_a13_packages
