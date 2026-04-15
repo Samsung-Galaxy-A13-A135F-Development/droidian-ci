@@ -32,7 +32,7 @@
 samsung_a13:
   type: image
   arch: arm64
-  edition: plamo_wf_experimental
+  edition: phosh
   variant: phone
   apilevel: 33
 
